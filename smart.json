@@ -3,7 +3,7 @@
   "description": "Specify cron like recurring jobs with an easier interface.",
   "homepage": "https://github.com/chfritz/meteor-easycron",
   "author": "Christian Fritz <> (http://www.cs.toronto.edu/~fritz)",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "git": "https://github.com/chfritz/meteor-easycron.git",
   "packages": {}
 }
