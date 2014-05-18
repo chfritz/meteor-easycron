@@ -7,7 +7,7 @@ Meteor package for specifing cron like recurring jobs easily.
 Examples
 --------
 
-```
+```javascript
 var everyMinute = new Cron(function() {
     console.log("another minute has passed!");
 }, {});
