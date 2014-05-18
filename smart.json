@@ -1,0 +1,9 @@
+{
+  "name": "easycron",
+  "description": "Specify cron like recuring jobs with an easier interface.",
+  "homepage": "https://github.com/chfritz/meteor-easycron",
+  "author": "Christian Fritz <>",
+  "version": "0.0.1",
+  "homepage": "https://github.com/chfritz/meteor-easycron.git",
+  "packages": {}
+}
