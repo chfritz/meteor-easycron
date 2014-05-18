@@ -3,6 +3,14 @@ meteor-easycron
 
 Meteor package for specifing cron like recurring jobs easily.
 
+The usage is very simple
+
+```javascript
+var recurrence = new Cron(function, schedule);
+```
+
+where `schedule` is an object that for each of `minute`, `hour`, and `day` either specifies a specific value, or none at all which implies "every". So for instance, the empty object `{}` means every minute of every hour of every day. On the other hand `{day: 12}` means every minute of every hour of every 12th of the month.
+
 
 Examples
 --------
