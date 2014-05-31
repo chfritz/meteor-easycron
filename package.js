@@ -4,8 +4,8 @@ Package.describe({
 
 Package.on_use(function (api, where) {
   api.use('underscore', 'server');
-  api.add_files('cron.js', ['server']);
   if (api.export) {
-    api.export('Cron');
+    api.export('Cron','server');
   }
+  api.add_files('cron.js', ['server']);
 });
