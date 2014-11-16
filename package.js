@@ -1,5 +1,7 @@
 Package.describe({
-  summary: "Specify cron like recurring jobs with an easier interface."
+    summary: "Specify cron like recurring jobs with an easier interface.",
+    git: 'https://github.com/chfritz/meteor-easycron.git',
+    version: '0.0.3'
 });
 
 Package.on_use(function (api, where) {
