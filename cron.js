@@ -78,7 +78,7 @@ function sched(fn, schedule) {
     var next = getNext(schedule);
 
     // assert: next is now the next desired occurrence
-    console.log("setting timer for: ", next);
+    // console.log("setting timer for: ", next);
     var diff = next - new Date();
 
     // We need to make sure not to overrun the 32-bit buffer storing

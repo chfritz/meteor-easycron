@@ -1,10 +1,11 @@
 Package.describe({
+    name: 'chfritz:easycron',
     summary: "Specify cron like recurring jobs with an easier interface.",
     git: 'https://github.com/chfritz/meteor-easycron.git',
-    version: '0.0.3'
+    version: '0.0.4'
 });
 
-Package.on_use(function (api, where) {
+Package.onUse(function (api, where) {
     api.versionsFrom('0.9.0');
     api.use('underscore', 'server');
     if (api.export) {
